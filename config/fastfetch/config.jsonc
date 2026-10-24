@@ -1,0 +1,63 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+      "type": "kitty",
+      "source": "/home/pali/.config/fastfetch/black.jpg",
+      "width": 25,
+      "padding": {
+          "top": 3,
+          "left": 2
+      }
+  },
+  "modules": [
+    {
+        "type": "custom",
+        "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m \u001b[0m"
+    },
+    "break",
+    "title",
+    "separator",
+    {
+        "type": "os",
+        "key": "  os"
+    },
+    {
+        "type": "kernel",
+        "key": "  kernel"
+    },
+    {
+        "type": "packages",
+        "key": "󰏖  packages"
+    },
+    {
+        "type": "shell",
+        "key": "  shell"
+    },
+    {
+        "type": "terminal",
+        "key": "  terminal"
+    },
+    {
+        "type": "wm",
+        "key": "  wm"
+    },
+    {
+        "type": "terminalfont",
+        "key": "  font"
+    },
+    {
+        "type": "uptime",
+        "key": "  uptime"
+    },
+    {
+        "type": "datetime",
+        "format": "{1}-{3}-{11}",
+        "key": "󰃭  date"
+    },
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m \u001b[0m"
+    }
+  ]
+}
