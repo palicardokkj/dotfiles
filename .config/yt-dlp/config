@@ -1,0 +1,9 @@
+# Limpa o ID do arquivo
+-o "%(title)s.%(ext)s"
+
+# Aliases de extensão
+--alias --mp4 "--merge-output-format mp4 --embed-metadata --embed-thumbnail"
+--alias --mp3 "-x --audio-format mp3 --audio-quality 0 --embed-metadata --embed-thumbnail"
+
+# Cookies
+--cookies-from-browser firefox

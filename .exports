@@ -1,0 +1,5 @@
+# >> My .exports <<
+
+# Dispositivos
+export cllr="Galaxy A17 5G"
+export usbak="/run/media/pali/Backup"
